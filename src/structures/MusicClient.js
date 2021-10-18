@@ -4,7 +4,7 @@ const { promises: { readdir } } = require("fs");
 const { join } = require("path");
 const { LavasfyClient } = require("lavasfy");
 
-require("../extensions");
+require("../extensions");     
 
 module.exports = class MusicClient extends Client {
     /** @param {import("discord.js").ClientOptions} [opt] */
